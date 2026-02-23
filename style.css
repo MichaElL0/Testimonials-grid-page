@@ -53,13 +53,13 @@ body {
     width: max-content;
     display: grid;
     grid-template-columns: repeat(4, 250px);
-    grid-template-rows: 300px 300px;
+    grid-template-rows: 280px 280px;
     gap: 2rem;
 }
 
 .card {
     border-radius: 10px;
-    padding: 2.35rem;
+    padding: 2.45rem;
 
     box-shadow:
     0 2px 4px rgba(0,0,0,0.05),
@@ -68,6 +68,7 @@ body {
 
     display: flex;
     flex-direction: column;
+    justify-content: center;
     gap: 1rem;
 }
 
