@@ -53,7 +53,7 @@ body {
     width: max-content;
     display: grid;
     grid-template-columns: repeat(4, 250px);
-    grid-template-rows: 280px 280px;
+    grid-template-rows: 290px 290px;
     gap: 2rem;
 }
 
@@ -86,7 +86,7 @@ body {
 }
 
 .card h3 {
-    font-size: 1.2rem;
+    font-size: 1.1rem;
 }
 
 .card img {
@@ -107,6 +107,30 @@ body {
 
     background-color: var(--Purple-500);
     color: var(--White);
+
+    position: relative;
+    overflow: hidden;
+}
+
+.quote-svg {
+  position: absolute;
+  top: 0;
+  right: 60px;
+  width: 110px;
+
+  opacity: 0.4;
+  z-index: 0;
+}
+
+.card-1 .card-container-title,
+.card-1 .card-container-text {
+  position: relative;
+  z-index: 1;
+}
+
+#svg{
+    border-style: none;
+    border-radius: 0;
 }
 
 .card-1 p {
